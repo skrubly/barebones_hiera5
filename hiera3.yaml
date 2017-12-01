@@ -1,0 +1,10 @@
+# This is the old style hiera - to see the new one, look in environments/default/hiera.yaml
+---
+:backends:
+      - yaml
+
+:hierarchy:
+      - "common"
+
+:yaml:
+      :datadir: '/vagrant/hiera'
